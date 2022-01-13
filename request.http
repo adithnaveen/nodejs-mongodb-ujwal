@@ -1,0 +1,23 @@
+GET  http://localhost:4000/
+
+
+###
+
+POST http://localhost:4000/employee
+Content-Type: application/json
+
+{
+    "firstName" :"Naveen", 
+    "lastName" :"Kumar", 
+    "password" :"hello@123"
+}
+
+####
+
+GET http://localhost:4000/employee
+
+
+
+####
+
+GET http://localhost:4000/employee/61e01cc05a164174200eb026
