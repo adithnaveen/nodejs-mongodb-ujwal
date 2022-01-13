@@ -26,6 +26,7 @@ export const getAllEmployees = (req, res) => {
     })
 }
 
+// this is sample commit 
 export const getEmployeeById =(req, res) => {
     Employee.findById(req.params.employeeID, (err, employee) => {
         if(err) {
